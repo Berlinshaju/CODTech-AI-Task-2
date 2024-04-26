@@ -55,6 +55,7 @@ Game Over: When the game ends, the final board state will be displayed along wit
 Restart: You can choose to play again if you'd like.
 
 <img width="518" alt="image" src="https://github.com/Berlinshaju/CODTech-AI-Task-2/assets/66897078/7ee99f8d-7f50-4f00-a6f2-481ef439cbd9">
+
 # Top-Left (Position 0): Enter 0 0.
 # Top-Middle (Position 1): Enter 0 1.
 # Top-Right (Position 2): Enter 0 2.
@@ -66,6 +67,7 @@ Restart: You can choose to play again if you'd like.
 # Bottom-Right (Position 8): Enter 2 2.
 
 User Interaction:
+
 <img width="518" alt="image" src="https://github.com/Berlinshaju/CODTech-AI-Task-2/assets/66897078/7ee99f8d-7f50-4f00-a6f2-481ef439cbd9">
 
 Initial State: The user is presented with an empty game board and prompted to make the first move.
