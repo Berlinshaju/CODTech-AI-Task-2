@@ -1,43 +1,57 @@
-# AI Task Two: Tic-Tac-Toe AI
+# AI TASK TWO: TIC-TAC-TOE AI
 
-# Introduction:
-The goal of this project was to implement an AI agent capable of playing Tic-Tac-Toe against a human player. Two algorithms were explored for the AI player: Minimax with and without Alpha-Beta Pruning. The project aimed to provide insights into game theory and basic search algorithms.
+# Objective:
+The objective of this project is to implement an AI agent capable of playing Tic-Tac-Toe against a human player. The AI should utilize algorithms such as Minimax with or without Alpha-Beta Pruning to create an unbeatable opponent. This project provides an opportunity to explore game theory and basic search algorithms.
 
 # Code Explanation:
 # Game Representation:
-The Tic-Tac-Toe game is represented as a 3x3 grid using a nested list in Python.
-Each cell of the grid can be empty, contain the player's mark (X or O), or represent an AI move.
+The Tic-Tac-Toe game is represented as a 3x3 grid, where each cell can be empty, contain a player's mark (X or O), or represent an AI move.
 
 # Game Logic:
-The game logic module contains functions to check for a winner, determine if the board is full, and evaluate the board for the AI player.
-The check_winner function checks rows, columns, and diagonals for three consecutive marks of the same player.
-The evaluate function assigns scores to different board configurations based on whether the AI player is winning, losing, or the game is a draw.
-
-# Minimax Algorithm:
-The minimax function implements the Minimax algorithm, a recursive algorithm used to search through the game tree and determine the best move for the AI player.
-The algorithm evaluates possible future game states by recursively exploring all possible moves and their outcomes.
-It assigns scores to each game state and selects the move with the highest score for the AI player while assuming the opponent plays optimally.
-
-# Minimax with Alpha-Beta Pruning:
-The Minimax algorithm is enhanced with Alpha-Beta Pruning to optimize performance by reducing the number of nodes evaluated.
-Alpha-Beta Pruning eliminates branches of the game tree that cannot influence the final decision, thereby speeding up the search process.
+The game logic handles the rules of Tic-Tac-Toe, including checking for wins, draws, and valid moves. It also provides functions for the AI player to make moves using the Minimax algorithm with or without Alpha-Beta Pruning.
 
 # User Interface:
-A simple command-line interface allows the human player to interact with the game.
-Players input their moves by specifying row and column numbers.
-The game board is displayed after each move, and the outcome of the game is determined when a player wins, the game ends in a draw, or the user quits.
+A graphical user interface (GUI) can be implemented using a library like Tkinter to allow users to interact with the game board.
 
 # Documentation:
-# Detailed Code Explanations:
-Comprehensive explanations of the code modules, functions, and algorithms used in the project are provided.
-Each code segment is accompanied by comments explaining its purpose and functionality.
+Comprehensive documentation includes detailed explanations of the code, algorithms used, and user interactions. Visual aids such as images or screenshots illustrate the program's execution and gameplay to enhance understanding.
 
-# Algorithm Descriptions:
-Detailed descriptions of the Minimax algorithm and Alpha-Beta Pruning are included, along with their roles in the Tic-Tac-Toe AI implementation.
+# Program Execution:
+Initialization: The game initializes with an empty game board and prompts the user to make the first move.
+User Move: The user selects a cell to place their mark (X or O) on the board. The program checks for the validity of the move and updates the board accordingly.
 
-# Execution and Interactions:
-Screenshots or images illustrating the program's execution and user interactions are included.
-Visual aids help users understand how the game progresses and how moves are made by both the human player and the AI.
-
+**AI Move Calculation:** After the user's move, the AI player calculates its move using the Minimax algorithm with or without Alpha-Beta Pruning. This involves evaluating possible future game states to determine the best move.
+**AI Move Execution:** The AI player places its mark (X or O) on the board based on the calculated move.
+**Game Continuation:** The game continues until a player wins, the game ends in a draw, or the user quits. After each move, the program checks for win conditions and updates the game state accordingly.
+**Game Over:** When the game concludes, the program displays the final state of the board and announces the winner or declares a draw.
 # Conclusion:
-The Tic-Tac-Toe AI project demonstrates the application of game theory and search algorithms in developing an intelligent game-playing agent. By implementing Minimax with and without Alpha-Beta Pruning, developers gain insights into optimizing AI performance and achieving unbeatable gameplay. Comprehensive documentation enhances understanding and serves as a valuable resource for future development and learning.
+The Tic-Tac-Toe AI project provides an opportunity to implement advanced algorithms in a practical context. By creating an unbeatable AI opponent, developers gain insights into game theory and search algorithms. Comprehensive documentation enhances understanding and facilitates future development.
+
+<img width="518" alt="image" src="https://github.com/Berlinshaju/CODTech-AI-Task-2/assets/66897078/7ee99f8d-7f50-4f00-a6f2-481ef439cbd9">
+Top-Left (Position 0): Enter 0 0.
+Top-Middle (Position 1): Enter 0 1.
+Top-Right (Position 2): Enter 0 2.
+Middle-Left (Position 3): Enter 1 0.
+Center (Position 4): Enter 1 1.
+Middle-Right (Position 5): Enter 1 2.
+Bottom-Left (Position 6): Enter 2 0.
+Bottom-Middle (Position 7): Enter 2 1.
+Bottom-Right (Position 8): Enter 2 2.
+
+**User Interaction:**
+<img width="518" alt="image" src="https://github.com/Berlinshaju/CODTech-AI-Task-2/assets/66897078/7ee99f8d-7f50-4f00-a6f2-481ef439cbd9">
+
+**Initial State:** The user is presented with an empty game board and prompted to make the first move.
+
+**Image Caption:** The screenshot shows the initial state of the game board with an empty grid and prompts the user to make the first move.
+
+<img width="960" alt="image" src="https://github.com/Berlinshaju/CODTech-AI-Task-2/assets/66897078/63e12e1c-dd2c-4c54-a054-9c6ca577dda4">
+
+**User Move:** The user selects a cell to place their mark (O) on the board.
+
+**Image Caption:** The screenshot shows the user selecting a cell to place their mark (O) on the board.
+
+**AI Move:** The AI player calculates its move and places its mark (X) on the board.
+**Image Caption:** The screenshot shows the AI player calculating its move and placing its mark (X) on the board.
+**Game Over:** The final state of the board is displayed, announcing the winner or declaring a draw.
+**Image Caption:** The screenshot shows the final state of the game board with the AI player winning the game.
