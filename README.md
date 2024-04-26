@@ -39,17 +39,14 @@ The Tic-Tac-Toe AI project provides an opportunity to implement advanced algorit
 
 Welcome Message: When you start the game, you'll see a welcome message and an empty 3x3 grid representing the Tic-Tac-Toe board:
 
-Welcome to Tic-Tac-Toe!
-- - -
-- - -
-- - -
+<img width="876" alt="image" src="https://github.com/Berlinshaju/CODTech-AI-Task-2/assets/66897078/514405ca-582d-4c39-b5e6-b46416fb6244">
 
 Enter Move: You'll be prompted to enter the row and column numbers where you want to place your mark (X or O). Rows and columns are numbered from 0 to 2, starting from the top-left corner. For example, to place your mark in the top-right corner, you would enter 0 2.
 
-Enter row and column (0-2):
 
+<img width="884" alt="image" src="https://github.com/Berlinshaju/CODTech-AI-Task-2/assets/66897078/d00830e4-032e-4e0e-845e-301fd3427100">
 
-Game Progression: After you enter your move, the game board will be updated to reflect your move. The AI will then make its move, and the board will be updated again.
+__Game Progression:__ After you enter your move, the game board will be updated to reflect your move. The AI will then make its move, and the board will be updated again.
 Winning or Draw: The game continues until one player wins by getting three of their marks in a row, column, or diagonal, or until the board is full (resulting in a draw).
 Game Over: When the game ends, the final board state will be displayed along with the outcome (win, lose, or draw).
 Restart: You can choose to play again if you'd like.
