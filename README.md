@@ -20,38 +20,74 @@ Comprehensive documentation includes detailed explanations of the code, algorith
 Initialization: The game initializes with an empty game board and prompts the user to make the first move.
 User Move: The user selects a cell to place their mark (X or O) on the board. The program checks for the validity of the move and updates the board accordingly.
 
-**AI Move Calculation:** After the user's move, the AI player calculates its move using the Minimax algorithm with or without Alpha-Beta Pruning. This involves evaluating possible future game states to determine the best move.
-**AI Move Execution:** The AI player places its mark (X or O) on the board based on the calculated move.
-**Game Continuation:** The game continues until a player wins, the game ends in a draw, or the user quits. After each move, the program checks for win conditions and updates the game state accordingly.
-**Game Over:** When the game concludes, the program displays the final state of the board and announces the winner or declares a draw.
+# AI Move Calculation: 
+After the user's move, the AI player calculates its move using the Minimax algorithm with or without Alpha-Beta Pruning. This involves evaluating possible future game states to determine the best move.
+
+# AI Move Execution: 
+The AI player places its mark (X or O) on the board based on the calculated move.
+
+# Game Continuation: 
+The game continues until a player wins, the game ends in a draw, or the user quits. After each move, the program checks for win conditions and updates the game state accordingly.
+
+# Game Over: 
+When the game concludes, the program displays the final state of the board and announces the winner or declares a draw.
+
 # Conclusion:
 The Tic-Tac-Toe AI project provides an opportunity to implement advanced algorithms in a practical context. By creating an unbeatable AI opponent, developers gain insights into game theory and search algorithms. Comprehensive documentation enhances understanding and facilitates future development.
 
+# how to play Tic-Tac-Toe:
+
+Welcome Message: When you start the game, you'll see a welcome message and an empty 3x3 grid representing the Tic-Tac-Toe board:
+
+Welcome to Tic-Tac-Toe!
+- - -
+- - -
+- - -
+
+Enter Move: You'll be prompted to enter the row and column numbers where you want to place your mark (X or O). Rows and columns are numbered from 0 to 2, starting from the top-left corner. For example, to place your mark in the top-right corner, you would enter 0 2.
+
+Enter row and column (0-2):
+
+
+Game Progression: After you enter your move, the game board will be updated to reflect your move. The AI will then make its move, and the board will be updated again.
+Winning or Draw: The game continues until one player wins by getting three of their marks in a row, column, or diagonal, or until the board is full (resulting in a draw).
+Game Over: When the game ends, the final board state will be displayed along with the outcome (win, lose, or draw).
+Restart: You can choose to play again if you'd like.
+
 <img width="518" alt="image" src="https://github.com/Berlinshaju/CODTech-AI-Task-2/assets/66897078/7ee99f8d-7f50-4f00-a6f2-481ef439cbd9">
-Top-Left (Position 0): Enter 0 0.
-Top-Middle (Position 1): Enter 0 1.
-Top-Right (Position 2): Enter 0 2.
-Middle-Left (Position 3): Enter 1 0.
-Center (Position 4): Enter 1 1.
-Middle-Right (Position 5): Enter 1 2.
-Bottom-Left (Position 6): Enter 2 0.
-Bottom-Middle (Position 7): Enter 2 1.
-Bottom-Right (Position 8): Enter 2 2.
+# Top-Left (Position 0): Enter 0 0.
+# Top-Middle (Position 1): Enter 0 1.
+# Top-Right (Position 2): Enter 0 2.
+# Middle-Left (Position 3): Enter 1 0.
+# Center (Position 4): Enter 1 1.
+# Middle-Right (Position 5): Enter 1 2.
+# Bottom-Left (Position 6): Enter 2 0.
+# Bottom-Middle (Position 7): Enter 2 1.
+# Bottom-Right (Position 8): Enter 2 2.
 
-**User Interaction:**
+User Interaction:
 <img width="518" alt="image" src="https://github.com/Berlinshaju/CODTech-AI-Task-2/assets/66897078/7ee99f8d-7f50-4f00-a6f2-481ef439cbd9">
 
-**Initial State:** The user is presented with an empty game board and prompted to make the first move.
+Initial State: The user is presented with an empty game board and prompted to make the first move.
 
-**Image Caption:** The screenshot shows the initial state of the game board with an empty grid and prompts the user to make the first move.
+Image Caption: The screenshot shows the initial state of the game board with an empty grid and prompts the user to make the first move.
 
 <img width="960" alt="image" src="https://github.com/Berlinshaju/CODTech-AI-Task-2/assets/66897078/63e12e1c-dd2c-4c54-a054-9c6ca577dda4">
 
-**User Move:** The user selects a cell to place their mark (O) on the board.
+User Move: The user selects a cell to place their mark (O) on the board.
 
-**Image Caption:** The screenshot shows the user selecting a cell to place their mark (O) on the board.
+Image Caption: The screenshot shows the user selecting a cell to place their mark (O) on the board.
 
-**AI Move:** The AI player calculates its move and places its mark (X) on the board.
-**Image Caption:** The screenshot shows the AI player calculating its move and placing its mark (X) on the board.
-**Game Over:** The final state of the board is displayed, announcing the winner or declaring a draw.
-**Image Caption:** The screenshot shows the final state of the game board with the AI player winning the game.
+AI Move: 
+The AI player calculates its move and places its mark (X) on the board.
+
+Image Caption: 
+The screenshot shows the AI player calculating its move and placing its mark (X) on the board.
+
+Game Over: 
+The final state of the board is displayed, announcing the winner or declaring a draw.
+
+Image Caption: 
+The screenshot shows the final state of the game board with the AI player winning the game.
+
+
