@@ -71,19 +71,29 @@ __User Interaction:__
 
 __Initial State:__ The user is presented with an empty game board and prompted to make the first move.
 
+![image](https://github.com/Berlinshaju/CODTech-AI-Task-2/assets/66897078/549609ed-1216-4268-8f74-685b70a011e4)
+
 __Image Caption:__ The screenshot shows the initial state of the game board with an empty grid and prompts the user to make the first move.
 
 <img width="960" alt="image" src="https://github.com/Berlinshaju/CODTech-AI-Task-2/assets/66897078/63e12e1c-dd2c-4c54-a054-9c6ca577dda4">
 
 __User Move:__ The user selects a cell to place their mark (O) on the board.
 
+<img width="955" alt="image" src="https://github.com/Berlinshaju/CODTech-AI-Task-2/assets/66897078/3761d986-cf98-4e48-a393-27eced3bed76">
+
 __Image Caption:__ The screenshot shows the user selecting a cell to place their mark (O) on the board.
 
 __AI Move:__ The AI player calculates its move and places its mark (X) on the board.
 
+<img width="960" alt="image" src="https://github.com/Berlinshaju/CODTech-AI-Task-2/assets/66897078/fce032a9-7607-414c-82ee-e5f31f493d50">
+
 __Image Caption:__ The screenshot shows the AI player calculating its move and placing its mark (X) on the board.
 
+<img width="960" alt="image" src="https://github.com/Berlinshaju/CODTech-AI-Task-2/assets/66897078/18b4017c-46de-4474-8d53-c815d90d12b2">
+
 __Game Over:__ The final state of the board is displayed, announcing the winner or declaring a draw.
+
+<img width="960" alt="image" src="https://github.com/Berlinshaju/CODTech-AI-Task-2/assets/66897078/68317024-b0c6-4377-901a-bcda75778784">
 
 __Image Caption:__ The screenshot shows the final state of the game board with the AI player winning the game.
 
