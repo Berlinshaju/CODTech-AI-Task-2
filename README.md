@@ -65,30 +65,26 @@ __Game Over:__ When the game ends, the final board state will be displayed along
 __Restart:__ You can choose to play again if you'd like.
 
 
-User Interaction:
+__User Interaction:__
 
 <img width="518" alt="image" src="https://github.com/Berlinshaju/CODTech-AI-Task-2/assets/66897078/7ee99f8d-7f50-4f00-a6f2-481ef439cbd9">
 
-Initial State: The user is presented with an empty game board and prompted to make the first move.
+__Initial State:__ The user is presented with an empty game board and prompted to make the first move.
 
-Image Caption: The screenshot shows the initial state of the game board with an empty grid and prompts the user to make the first move.
+__Image Caption:__ The screenshot shows the initial state of the game board with an empty grid and prompts the user to make the first move.
 
 <img width="960" alt="image" src="https://github.com/Berlinshaju/CODTech-AI-Task-2/assets/66897078/63e12e1c-dd2c-4c54-a054-9c6ca577dda4">
 
-User Move: The user selects a cell to place their mark (O) on the board.
+__User Move:__ The user selects a cell to place their mark (O) on the board.
 
-Image Caption: The screenshot shows the user selecting a cell to place their mark (O) on the board.
+__Image Caption:__ The screenshot shows the user selecting a cell to place their mark (O) on the board.
 
-AI Move: 
-The AI player calculates its move and places its mark (X) on the board.
+__AI Move:__ The AI player calculates its move and places its mark (X) on the board.
 
-Image Caption: 
-The screenshot shows the AI player calculating its move and placing its mark (X) on the board.
+__Image Caption:__ The screenshot shows the AI player calculating its move and placing its mark (X) on the board.
 
-Game Over: 
-The final state of the board is displayed, announcing the winner or declaring a draw.
+__Game Over:__ The final state of the board is displayed, announcing the winner or declaring a draw.
 
-Image Caption: 
-The screenshot shows the final state of the game board with the AI player winning the game.
+__Image Caption:__ The screenshot shows the final state of the game board with the AI player winning the game.
 
 
