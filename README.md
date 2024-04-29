@@ -1,3 +1,8 @@
+__Name:__ Berlin Shaju Bellarmin
+__ID:__  COD7119
+__Domain:__  Artifical Intelligence
+__Mentor:__  Sravani Gouni
+
 # AI TASK TWO: TIC-TAC-TOE AI
 
 # Objective:
